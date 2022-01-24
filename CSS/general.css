@@ -1,0 +1,104 @@
+h1{
+  color: palevioletred;
+  font-size:  50px;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: capitalize;
+  text-align: center;
+  text-shadow: 5px 5px 3px gray;
+  letter-spacing: 30px;
+  word-spacing: ;
+}
+
+/* p {
+  text-indent: 60px ;
+} */
+
+ol li {
+  color:red;
+}
+
+#current_page {
+  color:black;
+}
+
+.nav_links {
+  color: darksalmon;
+  text-decoration: none;
+}
+
+table {
+  empty-cells: hide;
+  /* border-collapse: collapse; */
+  /* border-spacing: 10px 15px; */
+
+}
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ol > li {
+  /* list-style-type: normal;
+  list-style-position: inside; */
+  list-style: lower-alpha;
+}
+
+nav {
+  text-align: center;
+  background-color: violet;
+}
+
+.abox {
+  height: 150px;
+  width:  150px;
+  background-color: pink;
+  padding: 20px;
+  /* margin-bottom: 20px; */
+  border: 15px solid black;
+  border-radius: 50px;
+  margin: 50px;
+  /* overflow: scroll; */
+  box-sizing: content-box;
+  box-shadow: 10px 10px 0px salmon;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+
+/* #box1 {
+  /* background-image: url("../images/fiat500.jpg");
+  /background-repeat: no-repeat; */
+  /* background: url("../images/fiat500.jpg") violet no-repeat fixed;
+  /background-size: 70px 70px; */
+  /* background-position: 100px 30px; */
+  /* background-attachment: fixed; */
+/* } */
+
+/* #box1 {
+  position: relative;
+  top: 50px; 
+  left: 250px;
+  z-index: 1;
+}  */
+/*rgb(255,230,219)
+rgb(232,211,202)*/
+
+img {
+  float: left;
+}
+
+p {
+  clear: right;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  padding: 20px 10px;
+  background-color: red;
+  color: white;
+}
+ 
