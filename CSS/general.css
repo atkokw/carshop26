@@ -5,9 +5,8 @@ h1{
   font-style: normal;
   text-transform: capitalize;
   text-align: center;
-  text-shadow: 5px 5px 3px gray;
-  letter-spacing: 30px;
-  word-spacing: ;
+  text-shadow: 3px 3px 3px gray;
+  letter-spacing: 5px;
 }
 
 /* p {
@@ -15,7 +14,7 @@ h1{
 } */
 
 ol li {
-  color:red;
+  color:darksalmon;
 }
 
 #current_page {
@@ -59,36 +58,23 @@ nav {
   border-radius: 50px;
   margin: 50px;
   /* overflow: scroll; */
-  box-sizing: content-box;
+  /* box-sizing: content-box; */
   box-shadow: 10px 10px 0px salmon;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
   display: inline-block;
-  vertical-align: top;
-  position: relative;
+  vertical-align: middle;
+  background-size: cover;
 }
 
-/* #box1 {
-  /* background-image: url("../images/fiat500.jpg");
-  /background-repeat: no-repeat; */
-  /* background: url("../images/fiat500.jpg") violet no-repeat fixed;
-  /background-size: 70px 70px; */
-  /* background-position: 100px 30px; */
-  /* background-attachment: fixed; */
-/* } */
+#box1 {
+  background-image: url("../images/catface.jpg");
+} 
 
-/* #box1 {
-  position: relative;
-  top: 50px; 
-  left: 250px;
-  z-index: 1;
-}  */
-/*rgb(255,230,219)
-rgb(232,211,202)*/
-
-img {
-  float: left;
+#box6 {
+  background-image: url("../images/f396696af26671af4ceaaea85012cb05.jpg");
 }
+
 
 p {
   clear: right;
@@ -97,8 +83,18 @@ p {
 footer {
   text-align: center;
   width: 100%;
-  padding: 20px 10px;
-  background-color: paleturquoise;
+  padding: 5px 5px;
+  background-color: palevioletred;
   color: white;
 }
- 
+ .top {
+   position: relative;
+ }
+
+ .top p {
+   position: absolute;
+   top: 0;
+   right: 0;
+   font-size: 40px;
+   font-style: oblique;
+ }
